@@ -1,0 +1,94 @@
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'Administrator' on host 'desktop-uicig95' (Windows NT_amd64 version 6.2) on Thu Nov 29 15:51:44 +0800 2018
+INFO: [HLS 200-10] In directory 'C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/HLS_IMAGEPROCESS'
+INFO: [HLS 200-10] Opening project 'C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/HLS_IMAGEPROCESS/imagetest_1129Pro'.
+INFO: [HLS 200-10] Opening solution 'C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/HLS_IMAGEPROCESS/imagetest_1129Pro/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg484-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../test.cpp in debug mode
+   Generating csim.exe
+In file included from D:/Xilinx/Vivado/2018.2/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from D:/Xilinx/Vivado/2018.2/include/hls_fpo.h:166,
+                 from D:/Xilinx/Vivado/2018.2/include/hls_half.h:58,
+                 from D:/Xilinx/Vivado/2018.2/include/ap_int_sim.h:73,
+                 from D:/Xilinx/Vivado/2018.2/include/ap_int.h:65,
+                 from D:/Xilinx/Vivado/2018.2/include/ap_axi_sdata.h:86,
+                 from D:/Xilinx/Vivado/2018.2/include/hls/hls_axi_io.h:39,
+                 from D:/Xilinx/Vivado/2018.2/include/hls_video.h:48,
+                 from ../../../image_core.h:4,
+                 from ../../../test.cpp:1:
+D:/Xilinx/Vivado/2018.2/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined
+ #define __GMP_LIBGMP_DLL  0
+ 
+In file included from D:/Xilinx/Vivado/2018.2/include/hls_fpo.h:166:0,
+                 from D:/Xilinx/Vivado/2018.2/include/hls_half.h:58,
+                 from D:/Xilinx/Vivado/2018.2/include/ap_int_sim.h:73,
+                 from D:/Xilinx/Vivado/2018.2/include/ap_int.h:65,
+                 from D:/Xilinx/Vivado/2018.2/include/ap_axi_sdata.h:86,
+                 from D:/Xilinx/Vivado/2018.2/include/hls/hls_axi_io.h:39,
+                 from D:/Xilinx/Vivado/2018.2/include/hls_video.h:48,
+                 from ../../../image_core.h:4,
+                 from ../../../test.cpp:1:
+D:/Xilinx/Vivado/2018.2/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+ #define __GMP_LIBGMP_DLL 1
+ 
+In file included from D:/Xilinx/Vivado/2018.2/include/opencv/cv.h:69:0,
+                 from ../../../test.cpp:2:
+D:/Xilinx/Vivado/2018.2/include/opencv2/flann/flann.hpp:290:1: warning: 'template<class T> class cv::flann::Index_' is deprecated [-Wdeprecated-declarations]
+ Index_<T>::Index_(const Mat& dataset, const ::cvflann::IndexParams& params)
+ ^~~~~~
+D:/Xilinx/Vivado/2018.2/include/opencv2/flann/flann.hpp:232:2: note: declared here
+  Index_ {
+  ^~~~~~
+D:/Xilinx/Vivado/2018.2/include/opencv2/flann/flann.hpp:316:1: warning: 'template<class T> class cv::flann::Index_' is deprecated [-Wdeprecated-declarations]
+ Index_<T>::~Index_()
+ ^~~~~~
+D:/Xilinx/Vivado/2018.2/include/opencv2/flann/flann.hpp:232:2: note: declared here
+  Index_ {
+  ^~~~~~
+D:/Xilinx/Vivado/2018.2/include/opencv2/flann/flann.hpp:323:6: warning: 'template<class T> class cv::flann::Index_' is deprecated [-Wdeprecated-declarations]
+ void Index_<T>::knnSearch(const vector<ElementType>& query, vector<int>& indices, vector<DistanceType>& dists, int knn, const ::cvflann::SearchParams& searchParams)
+      ^~~~~~
+D:/Xilinx/Vivado/2018.2/include/opencv2/flann/flann.hpp:232:2: note: declared here
+  Index_ {
+  ^~~~~~
+D:/Xilinx/Vivado/2018.2/include/opencv2/flann/flann.hpp:335:6: warning: 'template<class T> class cv::flann::Index_' is deprecated [-Wdeprecated-declarations]
+ void Index_<T>::knnSearch(const Mat& queries, Mat& indices, Mat& dists, int knn, const ::cvflann::SearchParams& searchParams)
+      ^~~~~~
+D:/Xilinx/Vivado/2018.2/include/opencv2/flann/flann.hpp:232:2: note: declared here
+  Index_ {
+  ^~~~~~
+D:/Xilinx/Vivado/2018.2/include/opencv2/flann/flann.hpp:354:5: warning: 'template<class T> class cv::flann::Index_' is deprecated [-Wdeprecated-declarations]
+ int Index_<T>::radiusSearch(const vector<ElementType>& query, vector<int>& indices, vector<DistanceType>& dists, DistanceType radius, const ::cvflann::SearchParams& searchParams)
+     ^~~~~~
+D:/Xilinx/Vivado/2018.2/include/opencv2/flann/flann.hpp:232:2: note: declared here
+  Index_ {
+  ^~~~~~
+D:/Xilinx/Vivado/2018.2/include/opencv2/flann/flann.hpp:365:5: warning: 'template<class T> class cv::flann::Index_' is deprecated [-Wdeprecated-declarations]
+ int Index_<T>::radiusSearch(const Mat& query, Mat& indices, Mat& dists, DistanceType radius, const ::cvflann::SearchParams& searchParams)
+     ^~~~~~
+D:/Xilinx/Vivado/2018.2/include/opencv2/flann/flann.hpp:232:2: note: declared here
+  Index_ {
+  ^~~~~~
+Assertion failed!
+
+Program: C:\Users\Administrator\AppData\Roaming\Xilinx\Vivado\HLS_IMAGEPROCESS\imagetest_1129Pro\solution1\csim\build\csim.exe
+File: D:/Xilinx/Vivado/2018.2/include/hls/hls_video_core.h, Line 600
+
+Expression: (_rows > 0) && (_rows <= ROWS) && (_cols > 0) && (_cols <= COLS) && "The number of rows and columns must be less than the template arguments."
+@E Simulation failed: Function 'main' returns nonzero value '3'.
+ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+4
+    while executing
+"source C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/HLS_IMAGEPROCESS/imagetest_1129Pro/solution1/csim.tcl"
+    invoked from within
+"hls::main C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/HLS_IMAGEPROCESS/imagetest_1129Pro/solution1/csim.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$args"
+    (procedure "hls_proc" line 5)
+    invoked from within
+"hls_proc $argv"

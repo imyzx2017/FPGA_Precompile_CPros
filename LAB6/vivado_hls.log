@@ -1,0 +1,128 @@
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'Administrator' on host 'desktop-uicig95' (Windows NT_amd64 version 6.2) on Mon Nov 26 20:34:53 +0800 2018
+INFO: [HLS 200-10] In directory 'C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/LAB6'
+INFO: [HLS 200-10] Opening project 'C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/LAB6/LAB_6'.
+INFO: [HLS 200-10] Opening solution 'C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/LAB6/LAB_6/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg484-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../core.cpp in debug mode
+   Generating csim.exe
+In file included from D:/Xilinx/Vivado/2018.2/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from D:/Xilinx/Vivado/2018.2/include/hls_fpo.h:166,
+                 from D:/Xilinx/Vivado/2018.2/include/hls_half.h:58,
+                 from D:/Xilinx/Vivado/2018.2/include/hls_math.h:35,
+                 from ../../../core.cpp:1:
+D:/Xilinx/Vivado/2018.2/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined
+ #define __GMP_LIBGMP_DLL  0
+ 
+In file included from D:/Xilinx/Vivado/2018.2/include/hls_fpo.h:166:0,
+                 from D:/Xilinx/Vivado/2018.2/include/hls_half.h:58,
+                 from D:/Xilinx/Vivado/2018.2/include/hls_math.h:35,
+                 from ../../../core.cpp:1:
+D:/Xilinx/Vivado/2018.2/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+ #define __GMP_LIBGMP_DLL 1
+ 
+Result[0]=0.502506
+Result[1]=0.923242
+Result[2]=0.957155
+Result[3]=0.573066
+Result[4]=0.124105
+Result[5]=0.023044
+Result[6]=0.362799
+Result[7]=0.830999
+Result[8]=0.997185
+Result[9]=0.708565
+Result[10]=0.230496
+Result[11]=0.002511
+Result[12]=0.234220
+Result[13]=0.712590
+Result[14]=0.997810
+Result[15]=0.827650
+Result[16]=0.358555
+Result[17]=0.021808
+Result[18]=0.127013
+Result[19]=0.577445
+Result[20]=0.958979
+Result[21]=0.920834
+Result[22]=0.498081
+Result[23]=0.079396
+Result[24]=0.049717
+Result[25]=0.436330
+Result[26]=0.883785
+Result[27]=0.980694
+Result[28]=0.637959
+Result[29]=0.170689
+Result[30]=0.008490
+Result[31]=0.300487
+Result[32]=0.778220
+Result[33]=1.002462
+Result[34]=0.767048
+Result[35]=0.288415
+Result[36]=0.006617
+Result[37]=0.180737
+Result[38]=0.650691
+Result[39]=0.984404
+Result[40]=0.875063
+Result[41]=0.423195
+Result[42]=0.044246
+Result[43]=0.086619
+Result[44]=0.511357
+Result[45]=0.927958
+Result[46]=0.953400
+Result[47]=0.564293
+Result[48]=0.118379
+Result[49]=0.025630
+Result[50]=0.371319
+Result[51]=0.837621
+Result[52]=0.995820
+Result[53]=0.700469
+Result[54]=0.223112
+Result[55]=0.002629
+Result[56]=0.241731
+Result[57]=0.720589
+Result[58]=0.998943
+Result[59]=0.820875
+Result[60]=0.350101
+Result[61]=0.019447
+Result[62]=0.132916
+Result[63]=0.586184
+Result[64]=0.962519
+Result[65]=0.915921
+Result[66]=0.489231
+Result[67]=0.074746
+Result[68]=0.053542
+Result[69]=0.445114
+Result[70]=0.889452
+Result[71]=0.978034
+Result[72]=0.629418
+Result[73]=0.164120
+Result[74]=0.009933
+Result[75]=0.308615
+Result[76]=0.785560
+Result[77]=1.002266
+Result[78]=0.759495
+Result[79]=0.280450
+Result[80]=0.005562
+Result[81]=0.187562
+Result[82]=0.659121
+Result[83]=0.986688
+Result[84]=0.869101
+Result[85]=0.414468
+Result[86]=0.040777
+Result[87]=0.091597
+Result[88]=0.520205
+Result[89]=0.932541
+Result[90]=0.949505
+Result[91]=0.555500
+Result[92]=0.112773
+Result[93]=0.028365
+Result[94]=0.379880
+Result[95]=0.844137
+Result[96]=0.994300
+Result[97]=0.692310
+Result[98]=0.215815
+Result[99]=0.002903
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
